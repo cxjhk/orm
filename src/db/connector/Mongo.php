@@ -24,12 +24,12 @@ use MongoDB\Driver\Manager;
 use MongoDB\Driver\Query as MongoQuery;
 use MongoDB\Driver\ReadPreference;
 use MongoDB\Driver\WriteConcern;
-use think\db\BaseQuery;
-use think\db\builder\Mongo as Builder;
-use think\db\Connection;
-use think\db\ConnectionInterface;
-use think\db\exception\DbException as Exception;
-use think\db\Mongo as Query;
+use sim\db\BaseQuery;
+use sim\db\builder\Mongo as Builder;
+use sim\db\Connection;
+use sim\db\ConnectionInterface;
+use sim\db\exception\DbException as Exception;
+use sim\db\Mongo as Query;
 
 /**
  * Mongo数据库驱动

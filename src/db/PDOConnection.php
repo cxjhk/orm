@@ -15,10 +15,10 @@ namespace sim\db;
 use Closure;
 use PDO;
 use PDOStatement;
-use think\db\exception\BindParamException;
-use think\db\exception\DataNotFoundException;
-use think\db\exception\ModelNotFoundException;
-use think\db\exception\PDOException;
+use sim\db\exception\BindParamException;
+use sim\db\exception\DataNotFoundException;
+use sim\db\exception\ModelNotFoundException;
+use sim\db\exception\PDOException;
 
 /**
  * 数据库连接基础类

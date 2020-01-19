@@ -21,9 +21,9 @@ use MongoDB\Driver\Query as MongoQuery;
 use MongoDB\Driver\ReadPreference;
 use MongoDB\Driver\WriteConcern;
 use think\Collection;
-use think\db\connector\Mongo as Connection;
-use think\db\exception\DbException as Exception;
-use think\Paginator;
+use sim\db\connector\Mongo as Connection;
+use sim\db\exception\DbException as Exception;
+use sim\Paginator;
 
 class Mongo extends BaseQuery
 {

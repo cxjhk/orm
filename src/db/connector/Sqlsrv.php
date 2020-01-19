@@ -12,7 +12,7 @@
 namespace sim\db\connector;
 
 use PDO;
-use think\db\PDOConnection;
+use sim\db\PDOConnection;
 
 /**
  * Sqlsrv数据库驱动

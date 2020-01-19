@@ -12,7 +12,7 @@ declare (strict_types = 1);
 
 namespace sim\db;
 
-use think\db\exception\DbException as Exception;
+use sim\db\exception\DbException as Exception;
 use think\helper\Str;
 
 /**

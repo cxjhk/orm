@@ -13,8 +13,8 @@ declare (strict_types = 1);
 namespace sim\db\concern;
 
 use Closure;
-use think\db\BaseQuery;
-use think\db\Raw;
+use sim\db\BaseQuery;
+use sim\db\Raw;
 
 trait WhereQuery
 {

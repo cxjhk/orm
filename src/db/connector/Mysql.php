@@ -13,7 +13,7 @@ declare (strict_types = 1);
 namespace sim\db\connector;
 
 use PDO;
-use think\db\PDOConnection;
+use sim\db\PDOConnection;
 
 /**
  * mysql数据库驱动

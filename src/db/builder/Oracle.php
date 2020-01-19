@@ -10,8 +10,8 @@ declare (strict_types = 1);
 
 namespace sim\db\builder;
 
-use think\db\Builder;
-use think\db\Query;
+use sim\db\Builder;
+use sim\db\Query;
 
 /**
  * Oracle数据库驱动

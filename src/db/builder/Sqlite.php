@@ -12,9 +12,9 @@ declare (strict_types = 1);
 
 namespace sim\db\builder;
 
-use think\db\Builder;
-use think\db\Query;
-use think\db\Raw;
+use sim\db\Builder;
+use sim\db\Query;
+use sim\db\Raw;
 
 /**
  * Sqlite数据库驱动

@@ -14,7 +14,7 @@ namespace sim\db;
 
 use Closure;
 use PDO;
-use think\db\exception\DbException as Exception;
+use sim\db\exception\DbException as Exception;
 
 /**
  * Db Builder

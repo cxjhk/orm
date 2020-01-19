@@ -14,8 +14,8 @@ namespace sim\db\concern;
 
 use Closure;
 use think\helper\Str;
-use think\Model;
-use think\model\Collection as ModelCollection;
+use sim\Model;
+use sim\model\Collection as ModelCollection;
 
 /**
  * 模型及关联查询

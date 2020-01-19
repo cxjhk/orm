@@ -13,8 +13,8 @@ declare (strict_types = 1);
 namespace sim\db\concern;
 
 use think\Collection;
-use think\db\exception\DataNotFoundException;
-use think\db\exception\ModelNotFoundException;
+use sim\db\exception\DataNotFoundException;
+use sim\db\exception\ModelNotFoundException;
 use think\helper\Str;
 
 /**

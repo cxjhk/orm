@@ -10,8 +10,8 @@
 namespace sim\db\connector;
 
 use PDO;
-use think\db\BaseQuery;
-use think\db\PDOConnection;
+use sim\db\BaseQuery;
+use sim\db\PDOConnection;
 
 /**
  * Oracle数据库驱动

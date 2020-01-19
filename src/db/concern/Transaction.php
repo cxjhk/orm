@@ -12,7 +12,7 @@ declare (strict_types = 1);
 
 namespace sim\db\concern;
 
-use think\db\BaseQuery;
+use sim\db\BaseQuery;
 
 /**
  * 事务支持

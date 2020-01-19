@@ -16,9 +16,9 @@ use MongoDB\Driver\BulkWrite;
 use MongoDB\Driver\Command;
 use MongoDB\Driver\Exception\InvalidArgumentException;
 use MongoDB\Driver\Query as MongoQuery;
-use think\db\connector\Mongo as Connection;
-use think\db\exception\DbException as Exception;
-use think\db\Mongo as Query;
+use sim\db\connector\Mongo as Connection;
+use sim\db\exception\DbException as Exception;
+use sim\db\Mongo as Query;
 
 class Mongo
 {

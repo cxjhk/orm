@@ -11,10 +11,10 @@
 
 namespace sim\db\builder;
 
-use think\db\Builder;
-use think\db\exception\DbException as Exception;
-use think\db\Query;
-use think\db\Raw;
+use sim\db\Builder;
+use sim\db\exception\DbException as Exception;
+use sim\db\Query;
+use sim\db\Raw;
 
 /**
  * Sqlsrv数据库驱动

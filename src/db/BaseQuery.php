@@ -13,12 +13,12 @@ declare (strict_types = 1);
 namespace sim\db;
 
 use think\Collection;
-use think\db\exception\DataNotFoundException;
-use think\db\exception\DbException as Exception;
-use think\db\exception\ModelNotFoundException;
+use sim\db\exception\DataNotFoundException;
+use sim\db\exception\DbException as Exception;
+use sim\db\exception\ModelNotFoundException;
 use think\helper\Str;
-use think\Model;
-use think\Paginator;
+use sim\Model;
+use sim\Paginator;
 
 /**
  * 数据查询基础类

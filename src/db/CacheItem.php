@@ -15,7 +15,7 @@ namespace sim\db;
 use DateInterval;
 use DateTime;
 use DateTimeInterface;
-use think\db\exception\InvalidArgumentException;
+use sim\db\exception\InvalidArgumentException;
 
 /**
  * CacheItem实现类

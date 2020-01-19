@@ -12,7 +12,7 @@ declare (strict_types = 1);
 
 namespace sim\db\concern;
 
-use think\db\Raw;
+use sim\db\Raw;
 use think\helper\Str;
 
 /**

@@ -12,7 +12,7 @@
 namespace sim\facade;
 
 if (class_exists('think\Facade')) {
-    class Facade extends \think\Facade
+    class Facade extends \sim\Facade
     {}
 } else {
     class Facade
@@ -69,8 +69,8 @@ if (class_exists('think\Facade')) {
 }
 
 /**
- * @see \think\DbManager
- * @mixin \think\DbManager
+ * @see \sim\DbManager
+ * @mixin \sim\DbManager
  */
 class Db extends Facade
 {

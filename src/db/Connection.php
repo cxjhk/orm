@@ -13,8 +13,8 @@ declare (strict_types = 1);
 namespace sim\db;
 
 use Psr\SimpleCache\CacheInterface;
-use think\DbManager;
-use think\db\CacheItem;
+use sim\DbManager;
+use sim\db\CacheItem;
 
 /**
  * 数据库连接基础类
