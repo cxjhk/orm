@@ -11,7 +11,7 @@
 
 namespace sim\facade;
 
-if (class_exists('think\Facade')) {
+if (class_exists('sim\Facade')) {
     class Facade extends \sim\Facade
     {}
 } else {
@@ -42,7 +42,7 @@ if (class_exists('think\Facade')) {
          */
         protected static function createFacade(bool $newInstance = false)
         {
-            $class = static::getFacadeClass() ?: 'think\DbManager';
+            $class = static::getFacadeClass() ?: 'sim\DbManager';
 
             if (static::$alwaysNewInstance) {
                 $newInstance = true;
@@ -81,6 +81,6 @@ class Db extends Facade
      */
     protected static function getFacadeClass()
     {
-        return 'think\DbManager';
+        return 'sim\DbManager';
     }
 }
