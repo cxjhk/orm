@@ -1,6 +1,6 @@
-# ThinkORM
+# sim ORM
 
-基于PHP7.1+ 和PDO实现的ORM，支持多数据库，2.0版本主要特性包括：
+基于topthink实现的ORM，支持多数据库，2.0版本主要特性包括：
 
 * 基于PDO和PHP强类型实现
 * 支持原生查询和查询构造器
@@ -19,7 +19,7 @@
 
 ## 安装
 ~~~
-composer require topthink/think-orm
+composer require sim/orm
 ~~~
 
 ## 文档
