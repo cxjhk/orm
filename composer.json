@@ -1,5 +1,5 @@
 {
-    "name": "sim/orm",
+    "name": "simple_swoole/orm",
     "description": "simple swoole orm",
     "keywords": [
         "orm",
