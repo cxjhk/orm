@@ -9,14 +9,14 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-namespace think\model\relation;
+namespace sim\model\relation;
 
 use Closure;
 use think\Collection;
-use think\db\BaseQuery as Query;
+use sim\db\BaseQuery as Query;
 use think\helper\Str;
-use think\Model;
-use think\model\Relation;
+use sim\Model;
+use sim\model\Relation;
 
 /**
  * 远程一对多关联类

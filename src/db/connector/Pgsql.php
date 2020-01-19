@@ -9,7 +9,7 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-namespace think\db\connector;
+namespace sim\db\connector;
 
 use PDO;
 use think\db\PDOConnection;

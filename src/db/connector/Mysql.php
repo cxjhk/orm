@@ -10,7 +10,7 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think\db\connector;
+namespace sim\db\connector;
 
 use PDO;
 use think\db\PDOConnection;

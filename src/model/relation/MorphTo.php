@@ -9,13 +9,13 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-namespace think\model\relation;
+namespace sim\model\relation;
 
 use Closure;
-use think\db\exception\DbException as Exception;
+use sim\db\exception\DbException as Exception;
 use think\helper\Str;
-use think\Model;
-use think\model\Relation;
+use sim\Model;
+use sim\model\Relation;
 
 /**
  * 多态关联类

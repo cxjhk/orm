@@ -10,26 +10,26 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think\model\concern;
+namespace sim\model\concern;
 
 use Closure;
 use think\Collection;
-use think\db\BaseQuery as Query;
-use think\db\exception\DbException as Exception;
+use sim\db\BaseQuery as Query;
+use sim\db\exception\DbException as Exception;
 use think\helper\Str;
-use think\Model;
-use think\model\Relation;
-use think\model\relation\BelongsTo;
-use think\model\relation\BelongsToMany;
-use think\model\relation\HasMany;
-use think\model\relation\HasManyThrough;
-use think\model\relation\HasOne;
-use think\model\relation\HasOneThrough;
-use think\model\relation\MorphMany;
-use think\model\relation\MorphOne;
-use think\model\relation\MorphTo;
-use think\model\relation\MorphToMany;
-use think\model\relation\OneToOne;
+use sim\Model;
+use sim\model\Relation;
+use sim\model\relation\BelongsTo;
+use sim\model\relation\BelongsToMany;
+use sim\model\relation\HasMany;
+use sim\model\relation\HasManyThrough;
+use sim\model\relation\HasOne;
+use sim\model\relation\HasOneThrough;
+use sim\model\relation\MorphMany;
+use sim\model\relation\MorphOne;
+use sim\model\relation\MorphTo;
+use sim\model\relation\MorphToMany;
+use sim\model\relation\OneToOne;
 
 /**
  * 模型关联处理

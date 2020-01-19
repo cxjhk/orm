@@ -10,14 +10,14 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think;
+namespace sim;
 
 use ArrayAccess;
 use Closure;
 use JsonSerializable;
 use think\contract\Arrayable;
 use think\contract\Jsonable;
-use think\db\BaseQuery as Query;
+use sim\db\BaseQuery as Query;
 
 /**
  * Class Model

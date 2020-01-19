@@ -9,7 +9,7 @@
 // | Author: yunwuxin <448901948@qq.com>
 // +----------------------------------------------------------------------
 
-namespace think\db\exception;
+namespace sim\db\exception;
 
 /**
  * 模型事件异常

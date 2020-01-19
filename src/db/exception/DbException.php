@@ -10,7 +10,7 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think\db\exception;
+namespace sim\db\exception;
 
 use Exception;
 

@@ -10,15 +10,15 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think;
+namespace sim;
 
 use InvalidArgumentException;
 use Psr\Log\LoggerInterface;
 use Psr\SimpleCache\CacheInterface;
-use think\db\BaseQuery;
-use think\db\ConnectionInterface;
-use think\db\Query;
-use think\db\Raw;
+use sim\db\BaseQuery;
+use sim\db\ConnectionInterface;
+use sim\db\Query;
+use sim\db\Raw;
 
 /**
  * Class DbManager

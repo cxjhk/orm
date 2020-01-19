@@ -10,7 +10,7 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think;
+namespace sim;
 
 use ArrayAccess;
 use ArrayIterator;
@@ -19,7 +19,7 @@ use Countable;
 use DomainException;
 use IteratorAggregate;
 use JsonSerializable;
-use think\paginator\driver\Bootstrap;
+use sim\paginator\driver\Bootstrap;
 use Traversable;
 
 /**

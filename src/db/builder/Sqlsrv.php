@@ -9,7 +9,7 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-namespace think\db\builder;
+namespace sim\db\builder;
 
 use think\db\Builder;
 use think\db\exception\DbException as Exception;

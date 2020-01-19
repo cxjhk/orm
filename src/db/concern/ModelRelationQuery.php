@@ -10,7 +10,7 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think\db\concern;
+namespace sim\db\concern;
 
 use Closure;
 use think\helper\Str;

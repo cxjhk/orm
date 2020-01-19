@@ -10,7 +10,7 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think\db;
+namespace sim\db;
 
 use think\db\exception\DbException as Exception;
 use think\helper\Str;

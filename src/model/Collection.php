@@ -10,11 +10,11 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think\model;
+namespace sim\model;
 
 use think\Collection as BaseCollection;
-use think\Model;
-use think\Paginator;
+use sim\Model;
+use sim\Paginator;
 
 /**
  * 模型数据集类

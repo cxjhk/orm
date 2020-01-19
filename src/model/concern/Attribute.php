@@ -10,12 +10,12 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think\model\concern;
+namespace sim\model\concern;
 
 use InvalidArgumentException;
-use think\db\Raw;
+use sim\db\Raw;
 use think\helper\Str;
-use think\model\Relation;
+use sim\model\Relation;
 
 /**
  * 模型数据处理

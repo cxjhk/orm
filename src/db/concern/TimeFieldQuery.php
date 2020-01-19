@@ -10,7 +10,7 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think\db\concern;
+namespace sim\db\concern;
 
 /**
  * 时间查询支持

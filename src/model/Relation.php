@@ -10,13 +10,13 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think\model;
+namespace sim\model;
 
 use Closure;
 use ReflectionFunction;
-use think\db\BaseQuery as Query;
-use think\db\exception\DbException as Exception;
-use think\Model;
+use sim\db\BaseQuery as Query;
+use sim\db\exception\DbException as Exception;
+use sim\Model;
 
 /**
  * 模型关联基础类

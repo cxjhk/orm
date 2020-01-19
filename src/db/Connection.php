@@ -10,7 +10,7 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think\db;
+namespace sim\db;
 
 use Psr\SimpleCache\CacheInterface;
 use think\DbManager;

@@ -10,12 +10,12 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think\model\relation;
+namespace sim\model\relation;
 
 use Closure;
-use think\db\BaseQuery as Query;
+use sim\db\BaseQuery as Query;
 use think\helper\Str;
-use think\Model;
+use sim\Model;
 
 /**
  * BelongsTo关联类

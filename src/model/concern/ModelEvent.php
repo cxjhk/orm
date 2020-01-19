@@ -10,9 +10,9 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think\model\concern;
+namespace sim\model\concern;
 
-use think\db\exception\ModelEventException;
+use sim\db\exception\ModelEventException;
 use think\helper\Str;
 
 /**

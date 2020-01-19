@@ -10,9 +10,9 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think\model;
+namespace sim\model;
 
-use think\Model;
+use sim\Model;
 
 /**
  * 多对多中间表模型类
